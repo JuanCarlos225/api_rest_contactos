@@ -15,3 +15,9 @@ Para este ejem´plo se utlizara el gestor de baase de datos (SQLITE3) (https://w
 
 |--|--|--|
 |1|id_contactos|int|PRIMARY KEY|Llave primaria de la tabla|
+
+ |Matricula|Nombre|
+ |--|--|
+ |1722110473|Juan Carlos Rosales Vargas|
+ |1722110585|Cesar Arath Angeles Perez|
+ |1722110647|Miguel Angel Lopez Hernandez|
