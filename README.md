@@ -7,7 +7,7 @@ Ejemplo de una API REST para gestionar contactos enuna BD utilizando FASTAPI.
 Realizar un ejemplo de diseño de una API REST  de tipo CRUD y su posteriro codificación utilizando el framwork  (FASTAPI) (https://fastapi.tiangolo.com/).
 
 ## 3. Diseño de la BD
-Para este ejem´plo se utlizara el gestor de baase de datos (SQLITE3) (https://www.sqlite.org/index.html) con las siguientes tablas:
+Para este ejemplo se utlizara el gestor de baase de datos (SQlite3) (https://www.sqlite.org/index.html) con las siguientes tablas:
 
 ## 3.1 Tabla: contactos
 
