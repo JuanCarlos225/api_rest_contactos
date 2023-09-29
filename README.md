@@ -1,22 +1,23 @@
-# api_rest_contactos
+# Desing Document: API REST CONTACTOS
 
-API REST para gestionar contactos en una DB UTILIZANDO FASTApi
-## 1.Descripcion
-ejomplo de una API REST gestionar contactos en una DB utilizando FastAPI
+## 1. Descripción
+Ejemplo de una API REST para gestionar contactos en una DB utilizando FastAPI.
 
-## 2.Objetivo
-Realizar un ejemplo de diseño de una  API REST de tipo CURD y su posterior codifcacion utilizando al famesword  [FASTAPI](https://fastapi.tiangolo.com/).
+## 2. Objetivo
+Realizar un ejemplo de diseño de una API REST de tipo CRUD y su posterior codificación utilizando el framework [FastAPI](https://fastapi.tiangolo.com/).
 
-## 3. diseño de la BD
-para este ejemplo se utilizara el gestor de bases de datos[SQLITE3](https://sqlite.org). con las siguientes tablas:;
-|no.|campo|tipo|resticciones|descripcion|
+## 3. Diseño de la BD
+Para este ejemplo se utilizará el gestor de base de datos [SQLite3](https://sqlite.org) con las siguientes tablas:
+
+### 3.1 Tabla: contactos
+|No,|Campo|Tipo|Resticciones|Descripción|
 |--|--|--|--|--|
-|1|id_contacto|int|PRIMARY|Llave primaria de la tabla|
-|2|nombre|varchar|50|tipo texto|
-3|primer_apellido|varchar|50|tipo texto|
-4|segundo_apellido|varchar|50|tipo texto|
-5|email|varchar|50|tipo texto|
-6|telefono|varchar|13|tipo texto|
+|1|id_contactos|int|PRIMARY KEY|Llave primaria de la tabla|
+|2|nombre|varchar|100|Tipo texto|
+|3|primer_apellido|varchar|50|Tipo Texto|
+|4|segundo_apellido|varchar|50|Tipo texto|
+|5|email|varchar|50|Tipo Texto|
+|6|telefono|varchar|13|Tipo Texto|
 
 ## 3.2 Script
 
